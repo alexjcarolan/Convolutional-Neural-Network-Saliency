@@ -23,7 +23,7 @@ from torch.utils.tensorboard import SummaryWriter
 parser = argparse.ArgumentParser(description="CNN for saliency prediction", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument("--epochs", default=1000, type=int, help="Number of epochs to train for")
 parser.add_argument("--batch-size", default=128, type=int, help="Number of images in each batch")
-parser.add_argument("--initial-learning-rate", default=0.3, type=float, help="Initial earning rate")
+parser.add_argument("--initial-learning-rate", default=0.3, type=float, help="Initial Learning rate")
 parser.add_argument("--final-learning-rate", default=0.0001, type=float, help="Final Learning rate")
 parser.add_argument("--momentum", default=0.9, type=float, help="Momentum")
 parser.add_argument("--weight-decay", default=0.0005, type=float, help="Weight decay")
